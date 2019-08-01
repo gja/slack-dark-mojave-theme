@@ -21,6 +21,12 @@ npx install-dark-theme@1.0.1
 npx install-dark-theme@1.0.1 --rollback
 ```
 
+Please note that you may need to run npx with `sudo` permissions if the directory where Slack is installed is not user writeable.
+```shell
+sudo npx install-dark-theme
+```
+
+
 # Preview    
 ![Screenshot](https://raw.githubusercontent.com/elv1n/slack-dark-mojave-theme/master/preview.png)
     
